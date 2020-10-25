@@ -89,7 +89,10 @@ a {
   color: hsl(219, 29%, 14%);
   font-weight: 600;
 }
-@media (min-width: 650px) {
+@media (min-width: 700px) {
+  main {
+    height: 95vh;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
@@ -114,9 +117,6 @@ a {
   }
 }
 @media (min-width: 1200px) {
-  main {
-    height: 95vh;
-  }
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
