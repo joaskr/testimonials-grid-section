@@ -91,7 +91,7 @@ a {
 }
 @media (min-width: 700px) {
   main {
-    height: 95vh;
+    min-height: 95vh;
   }
   .grid-container {
     display: grid;
